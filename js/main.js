@@ -35,6 +35,6 @@ else if(a==="ciseaux" && b==="papier"){
   alert("Tu gagne");
 }
 else if (a === "" || a !== "pierre" || a !== "feuille" || a !== "ciseaux") {
-alert("Entre une réponse, correct");
+alert("Entrez soit pierre, feuille ou ciseaux");
 }
 }
