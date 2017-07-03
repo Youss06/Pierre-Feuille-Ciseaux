@@ -1,4 +1,6 @@
-function y(){
+function game() {
+
+
 var a=prompt("Jouer");
 var b = Math.floor((Math.random() * 3) + 1);
 
@@ -10,29 +12,29 @@ if(b==1){
   b="ciseaux";
 }
 
+
 if(a==b){
-  console.log("égalité");
+  alert("égalité");
 }
 else if(a==="pierre" && b==="papier"){
-  console.log("l'ordi gagne");
+  alert("l'ordi gagne");
 }
 else if(a==="ciseaux" && b==="papier"){
-  console.log("Tu gagne");
+  alert("Tu gagne");
 }
 else if(a==="papier" && b==="pierre"){
-  console.log("Tu gagne");
+  alert("Tu gagne");
 }
 else if(a==="papier" && b==="ciseaux"){
-  console.log("L'ordi gagne");
+  alert("L'ordi gagne");
 }
 else if(a==="ciseaux" && b==="pierre"){
-  console.log("L'ordi gagne");
+  alert("L'ordi gagne");
 }
 else if(a==="ciseaux" && b==="papier"){
-  console.log("Tu gagne");
+  alert("Tu gagne");
 }
 else if (a === "" || a !== "pierre" || a !== "feuille" || a !== "ciseaux") {
-console.log("Entre une réponse, correct");
+alert("Entre une réponse, correct");
 }
 }
-y();
