@@ -9,3 +9,30 @@ if(b==1){
 } else {
   b="ciseaux";
 }
+
+if(a==b){
+  console.log("égalité");
+}
+else if(a==="pierre" && b==="papier"){
+  console.log("l'ordi gagne");
+}
+else if(a==="ciseaux" && b==="papier"){
+  console.log("Tu gagne");
+}
+else if(a==="papier" && b==="pierre"){
+  console.log("Tu gagne");
+}
+else if(a==="papier" && b==="ciseaux"){
+  console.log("L'ordi gagne");
+}
+else if(a==="ciseaux" && b==="pierre"){
+  console.log("L'ordi gagne");
+}
+else if(a==="ciseaux" && b==="papier"){
+  console.log("Tu gagne");
+}
+else if (a === "" || a !== "pierre" || a !== "feuille" || a !== "ciseaux") {
+console.log("Entre une réponse, correct");
+}
+}
+y();
