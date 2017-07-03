@@ -56,6 +56,7 @@ alert("Entrez soit pierre, papier ou ciseaux");
 // else {
 // alert("Tu as perdu la partie !");
 // }
-// document.getElementById('demo').innerHTML = "Ordi " + "" + b;
+
 }
+document.getElementById('demo').innerHTML = "Vous avez gagnez"
 }
