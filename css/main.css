@@ -9,6 +9,9 @@ html{
 
 h1 {
   font-family: 'Satisfy', cursive;
+  font-size: 140%;
+  text-align: center;
+  color: yellow;
 }
 
 p {
@@ -23,6 +26,7 @@ p{
   display: block;
   color: white;
   font-family: 'Satisfy', cursive;
+  font-size: 160%;
 }
 
 @media (min-width: 992px) {
