@@ -44,11 +44,12 @@ button:hover {
 }
 
 img {
-  width: 70%;
+  width: 210%;
 }
 
 figure {
-  width: 50%;
+  width: 19%;
+  margin-left: 0
 }
 
 div figure {
@@ -59,8 +60,20 @@ display: inline-block;
 @media (min-width: 768px) {
   div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 10%;
   }
+
+
+  img {
+    width: 70%;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+
 
 p{
   display: block;
