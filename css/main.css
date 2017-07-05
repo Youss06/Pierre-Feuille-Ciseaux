@@ -43,12 +43,24 @@ button:hover {
     color: black;
 }
 
-div {
-  display: flex;
-  justify-content: space-between;
+img {
+  width: 70%;
+}
+
+figure {
+  width: 50%;
+}
+
+div figure {
+display: flex;
+display: inline-block;
 }
 
 @media (min-width: 768px) {
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
 
 p{
   display: block;
