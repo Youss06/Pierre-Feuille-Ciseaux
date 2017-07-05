@@ -7,10 +7,23 @@ html{
   padding: 0;
 }
 
+h1 {
+  font-family: 'Satisfy', cursive;
+}
 
+p {
+  display: none;
+  /*color: white;
+  font-family: 'Satisfy', cursive;*/
+}
 
 @media (min-width: 768px) {
 
+p{
+  display: block;
+  color: white;
+  font-family: 'Satisfy', cursive;
+}
 
 @media (min-width: 992px) {
   }
