@@ -43,18 +43,20 @@ button:hover {
     color: black;
 }
 
-img {
-  width: 210%;
-}
 
-figure {
-  width: 19%;
-  margin-left: 0
-}
+  img {
+    width: 70%;
+  }
+
+  figure {
+    width: 100%;
+  }
 
 div figure {
 display: flex;
 display: inline-block;
+margin: 0;
+justify-content: space-between;;
 }
 
 @media (min-width: 768px) {
