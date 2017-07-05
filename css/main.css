@@ -42,6 +42,11 @@ button:hover {
     color: black;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
 @media (min-width: 768px) {
 
 p{
