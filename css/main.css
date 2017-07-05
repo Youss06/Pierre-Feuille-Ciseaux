@@ -43,44 +43,8 @@ button:hover {
     color: black;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-}
 
-.button1 {
-  background-color: white;
-  color: black;
-  border: 2px solid #008CBA;
-}
 
-.button1:hover {
-  background-color: yellow;
-  color: red;
-}
-
-.button2 {
-    background-color: white;
-    color: black;
-    border: 2px solid #008CBA;
-}
-
-.button2:hover {
-    background-color: yellow;
-    color: red;
-}
-
-.button3 {
-  background-color: white;
-  color: black;
-  border: 2px solid #008CBA;
-}
-
-.button3:hover {
-  background-color: yellow;
-  color: red;
-}
 @media (min-width: 768px) {
 
 p{
