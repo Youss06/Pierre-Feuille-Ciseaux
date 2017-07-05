@@ -21,7 +21,7 @@ p {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: yellow;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -29,6 +29,17 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid yellow;;
+}
+
+button:hover {
+    background-color: yellow;;
+    color: black;
 }
 
 @media (min-width: 768px) {
