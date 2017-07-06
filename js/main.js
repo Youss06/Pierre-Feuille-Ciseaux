@@ -1,11 +1,12 @@
-function game() {
 
-  var joueur = 0;
-  var Ordi = 0;
+var joueur = 0;
+var Ordi = 0;
+var a =""
+function game() {
+  a=choixuser;
 
 // var a=prompt("Jouer");
 while (joueur < 3 && Ordi < 3 ){
-var a=prompt("Jouer");
 var b = Math.floor((Math.random() * 3) + 1);
 
 
@@ -47,22 +48,28 @@ else if(a==="ciseaux" && b==="papier"){
   alert("Tu gagne. L'ordi avait choisit : " + b);
 joueur++;
 }
-else if (a === "" || a !== "pierre" || a !== "papier" || a !== "ciseaux") {
-alert("Entrez soit pierre, papier ou ciseaux");
+// else if (a === "" || a !== "pierre" || a !== "papier" || a !== "ciseaux") {
+// alert("Entrez soit pierre, papier ou ciseaux");
+// }
+if (joueur == 3) {
+alert("Tu as gagné la partie !");
 }
-// if (joueur < 3) {
-// alert("Tu as gagné la partie !");
-// }
-// else {
-// alert("Tu as perdu la partie !");
-// }
+else if(Ordi==3){
+  alert("Tu as perdu la partie !");
+}
+else {
 
 }
-document.getElementById('demo').innerHTML = "Vous avez gagnez"
+
+
+
 }
 
+}
 
 var choixuser="";
 function choix(x){
-choixuser=x;
+  choixuser=x;
+  document.getElementById('demo').innerHTML =  choixuser;
+  game();
 }

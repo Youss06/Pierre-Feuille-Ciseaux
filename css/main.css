@@ -59,6 +59,22 @@ margin: 0;
 justify-content: space-between;;
 }
 
+.pierre:hover{
+  border: solid 11px yellow;
+  margin: -2px;
+}
+
+
+.papier:hover{
+  border: solid 11px yellow;
+  margin: -2px;
+}
+
+.ciseaux:hover{
+  border: solid 11px yellow;
+  margin: -2px;
+}
+
 @media (min-width: 768px) {
   div {
     display: flex;
