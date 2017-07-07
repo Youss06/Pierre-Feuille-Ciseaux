@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Pierre-Feuille-Ciseaux</title>
+    <link rel="stylesheet" href="css/boostrap.css">
  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
   <script type="text/javascript" src="js/main.js"></script>
   <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+
     <section>
       <h1>PIERRE-FEUILLE-CISEAUX</h1>
       <button type="button" name="button" onclick="game()">Jouer</button>
@@ -19,23 +21,50 @@ La "feuille" bat la pierre (en l'enveloppant).
 Si les joueurs révèlent le même symbole (pierre/pierre, feuille/feuille, ciseaux/ciseaux), cela fait match nul.</p>
     </section>
     <p id="demo"> </p>
-    <div>
+
+      <main>
+      <div class="first">
+        <div class="row">
+
     <figure>
 
-      <img src="img/Pierre" class="pierre"onclick="choix('pierre')" alt="">
+      <img src="img/rock.png" class="pierre"onclick="choix('pierre')" alt="">
     </figure>
 
     <figure>
-      <img src="img/Papier" class="papier" onclick="choix('papier')"alt="">
+      <img src="img/paper.png" class="papier" onclick="choix('papier')"alt="">
     </figure>
 
     <figure>
-      <img src="img/Ciseaux" class="ciseaux" onclick="choix('ciseaux')"alt="">
+      <img src="img/scissors.png" class="ciseaux" onclick="choix('ciseaux')"alt="">
     </figure>
+  </div>
+
+
+    <figure class="perso">
+      <img class="goku" src="img/Goku_render.png" alt="">
+    </figure>
+
+  </div>
+
+  <div class="three">
+
+
+    <figure>
+      <img src="img/Vegeta.png" alt="">
+    </figure>
+
+  </div>
+
+  </main>
+
+
+
+
+
       <!-- <button class="button1"type="button" name="button">Pierre</button>
       <button class="button2"type="button" name="button">Papier</button>
       <button class="button3"type="button" name="button">Ciseaux</button> -->
-    </div>
 
     <p id="too"></p>
 

@@ -45,12 +45,14 @@ button:hover {
 
 
   img {
-    width: 70%;
+    width: 60%;
   }
-
-  figure {
-    width: 100%;
-  }
+.perso img {
+  width: 50%;
+}
+  /*figure {
+    width: 12%;
+  }*/
 
 div figure {
 display: flex;
@@ -74,28 +76,69 @@ justify-content: space-between;;
   border: solid 11px yellow;
   margin: -2px;
 }
+/*.perso img {
+  width: 170%;
+}*/
 
+main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.first{
+  display: flex;
+  flex-direction: column;
+}
+.row image {
+  width: 100%;
+}
+
+.row {
+  width: 60%;
+}
 @media (min-width: 768px) {
   div {
     display: flex;
     justify-content: space-around;
-    margin-left: 10%;
+    margin-left: 5%;
+    width: 30%;
   }
 
-
-  img {
-    width: 53%;
+  main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
 
-  figure {
+  .first{
+    display: flex;
+    flex-direction: column;
+  }
+  .row image {
     width: 100%;
   }
 
+  .row {
+    width: 60%;
+  }
 
+  /*figure {
+    width: 100%;
+  }*/
+
+/*article {
+  display: flex;
+  justify-content: space-between;
+}*/
+
+.goku {
+  width: 150%;
+}
 
 p{
   display: block;
-  color: white;
+  color: black;
   font-family: 'Satisfy', cursive;
   font-size: 160%;
 }

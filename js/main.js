@@ -61,15 +61,12 @@ else {
 
 }
 
-
-
 }
-
-}
-
 var choixuser="";
 function choix(x){
   choixuser=x;
   document.getElementById('demo').innerHTML =  choixuser;
   game();
+}
+
 }
