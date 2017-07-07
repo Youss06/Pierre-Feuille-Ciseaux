@@ -97,6 +97,10 @@ main {
 .row {
   width: 60%;
 }
+
+/*.goku:hover{
+  background: url("../img/5934fdaa8e0f7833128f0e8dc704bc1f.png");
+}*/
 @media (min-width: 768px) {
   div {
     display: flex;
