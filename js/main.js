@@ -1,7 +1,13 @@
 
 var joueur = 0;
 var Ordi = 0;
-var a ="";
+// var a =""
+var choixuser="";
+function choix(x){
+  choixuser=x;
+  document.getElementById('demo').innerHTML =  choixuser;
+  game();
+}
 function game() {
   a=choixuser;
 
@@ -60,16 +66,16 @@ alert("Tu as gagné la partie !");
 else if(Ordi==3){
   alert("Tu as perdu la partie !");
 }
-else {
+// else {
+//
+// }
 
 }
-
-}
-var choixuser="";
-function choix(x){
-  choixuser=x;
-  document.getElementById('demo').innerHTML =  choixuser;
-  game();
-}
+// var choixuser="";
+// function choix(x){
+//   choixuser=x;
+//   document.getElementById('demo').innerHTML =  choixuser;
+//   game();
+// }
 
 }
