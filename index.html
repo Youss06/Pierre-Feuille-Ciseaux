@@ -14,7 +14,7 @@
       <h1>PIERRE-FEUILLE-CISEAUX</h1>
       <button type="button" name="button" onclick="game()">Jouer</button>
       <button type="button" name="button" onclick="game()">Rejouer</button>
-      <p>Pierre-feuille-ciseaux est un jeu qui se joue à deux joueurs. Chacun des joueurs va choisir un des coups possibles (pierre/feuille ou ciseaux)De façon générale :
+      <p class="regle">Pierre-feuille-ciseaux est un jeu qui se joue à deux joueurs. Chacun des joueurs va choisir un des coups possibles (pierre/feuille ou ciseaux)De façon générale :
 Le jeux de "pierre" bat les ciseaux (en les écrasant).
 Le jeux de "ciseaux" bat la feuille (en la coupant).
 La "feuille" bat la pierre (en l'enveloppant).
@@ -47,12 +47,24 @@ Si les joueurs révèlent le même symbole (pierre/pierre, feuille/feuille, cise
 
   </div>
 
+  <aside>
+        <div id="score">
+          <h3>Point</h3>
+          <p> Goku <span id=joueur>0 </span></p>
+          <p> - </p>
+          <p> Végeta <span id="Ordi">0 </span></p>
+  </aside>
+  </div>
+
+
   <div class="three">
 
 
     <figure>
-      <img src="img/Vegeta.png" alt="">
+      <img src="img/Vegeta.png" onmouseover="this.src='img/vegeta_ssj_by_naironkr-dadgz00.png'" onmouseout="this.src='img/Vegeta.png'"alt="">
     </figure>
+
+
 
   </div>
 

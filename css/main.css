@@ -1,4 +1,15 @@
 
+@font-face {
+  font-family: dbz;
+	src: url(../font/saiyan_sans/Saiyan-Sans.ttf);
+}
+
+h1 {
+	font-family: dbz;
+}
+
+
+
 
 
 html{
@@ -15,12 +26,16 @@ h1 {
   text-decoration: overline;
 }
 
-p {
+.regle {
   display: none;
   /*color: white;
   font-family: 'Satisfy', cursive;*/
 }
-
+p{
+  display: block;
+  color: black;
+  font-family: 'Satisfy', cursive;
+}
 button {
     background-color: yellow;
     border: none;
@@ -45,7 +60,7 @@ button:hover {
 
 
   img {
-    width: 60%;
+    width: 50%;
   }
 .perso img {
   width: 50%;
@@ -140,7 +155,7 @@ main {
   width: 150%;
 }
 
-p{
+.regle, p{
   display: block;
   color: black;
   font-family: 'Satisfy', cursive;

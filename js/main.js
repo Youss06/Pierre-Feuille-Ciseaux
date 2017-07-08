@@ -1,12 +1,12 @@
 
 var joueur = 0;
 var Ordi = 0;
-var a =""
+var a ="";
 function game() {
   a=choixuser;
 
-// var a=prompt("Jouer");
 while (joueur < 3 && Ordi < 3 ){
+  var a=prompt("Jouer");
 var b = Math.floor((Math.random() * 3) + 1);
 
 
@@ -48,6 +48,9 @@ else if(a==="ciseaux" && b==="papier"){
   alert("Tu gagne. L'ordi avait choisit : " + b);
 joueur++;
 }
+
+document.getElementById("joueur").innerHTML = joueur;
+document.getElementById("Ordi").innerHTML = Ordi;
 // else if (a === "" || a !== "pierre" || a !== "papier" || a !== "ciseaux") {
 // alert("Entrez soit pierre, papier ou ciseaux");
 // }
