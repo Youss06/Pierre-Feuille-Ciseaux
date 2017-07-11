@@ -11,14 +11,14 @@
   <body>
 
     <section>
-      <h1>PIERRE-FEUILLE-CISEAUX</h1>
-      <button type="button" name="button" onclick="game()">Jouer</button>
-      <button type="button" name="button" onclick="game()">Rejouer</button>
-      <p class="regle">Pierre-feuille-ciseaux est un jeu qui se joue à deux joueurs. Chacun des joueurs va choisir un des coups possibles (pierre/feuille ou ciseaux)De façon générale :
+      <h1 id="titre"><span id="titre2">O</span>PIERRE-<span id="titre2">FEUILLE</span>-CISEAUX<span id="titre2">O</span></h1>
+      <!-- <button type="button" name="button" onclick="game()">Jouer</button>
+      <button type="button" name="button" onclick="game()">Rejouer</button> -->
+      <p id="regle">Pierre-feuille-ciseaux est un jeu qui se joue a deux joueurs. Chacun des joueurs va choisir un des coups possibles (pierre/feuille ou ciseaux)De façon generale :
 Le jeux de "pierre" bat les ciseaux (en les écrasant).
 Le jeux de "ciseaux" bat la feuille (en la coupant).
 La "feuille" bat la pierre (en l'enveloppant).
-Si les joueurs révèlent le même symbole (pierre/pierre, feuille/feuille, ciseaux/ciseaux), cela fait match nul.</p>
+Si les joueurs revelent le meme symbole (pierre/pierre, feuille/feuille, ciseaux/ciseaux), cela fait match nul et Gogeta apparaitra.A chaque point marquer, le joueur ou l'ordinateur se transformera jusqu'a atteindre sa forme finale. Le premier a atteindre trois victoire gagnera la partie.</p>
     </section>
     <p id="demo"> </p>
 
@@ -28,39 +28,40 @@ Si les joueurs révèlent le même symbole (pierre/pierre, feuille/feuille, cise
 
     <figure>
 
-      <img src="img/rock.png" class="pierre"onclick="choix('pierre')" alt="">
+      <img src="img/rock.png" class="pierre"onclick="choix('pierre')" alt="image pierre">
     </figure>
 
     <figure>
-      <img src="img/paper.png" class="papier" onclick="choix('papier')"alt="">
+      <img src="img/paper.png" class="papier" onclick="choix('papier')"alt="image papier">
     </figure>
 
     <figure>
-      <img src="img/scissors.png" class="ciseaux" onclick="choix('ciseaux')"alt="">
+      <img src="img/scissors.png" class="ciseaux" onclick="choix('ciseaux')"alt="image ciseaux">
     </figure>
   </div>
 
 
     <figure class="perso">
-      <img class="goku" src="img/Goku_render.png" onmouseover="this.src='img/5934fdaa8e0f7833128f0e8dc704bc1f.png'" onmouseout="this.src='img/Goku_render.png'" alt="">
+      <img id="goku" src="img/Goku_render.png" alt="image de goku">
     </figure>
 
   </div>
 
   <aside>
         <div id="score">
-          <p> Goku <span id=joueur>0 </span></p>
+          <p id="p"> Goku <span id=joueur>0 </span></p>
           <p> - </p>
-          <p> Végeta <span id="Ordi">0 </span></p>
+          <p id="p"> Vegeta <span id="Ordi">0 </span></p>
   </aside>
   </div>
+
 
 
   <div class="three">
 
 
     <figure>
-      <img src="img/Vegeta.png" onmouseover="this.src='img/vegeta_ssj_by_naironkr-dadgz00.png'" onmouseout="this.src='img/Vegeta.png'"alt="">
+      <img id="win"src="img/Vegeta.png"alt="image de vegeta">
     </figure>
 
 

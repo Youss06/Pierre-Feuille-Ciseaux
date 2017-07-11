@@ -8,11 +8,11 @@ function choix(x){
   document.getElementById('demo').innerHTML =  choixuser;
   game();
 }
-function game() {
+function game(choix) {
   a=choixuser;
 
-while (joueur < 3 && Ordi < 3 ){
-  var a=prompt("Jouer");
+if (joueur < 3 && Ordi < 3 ){
+  // var a=prompt("Jouer");
 var b = Math.floor((Math.random() * 3) + 1);
 
 
@@ -25,33 +25,34 @@ if(b==1){
   b="ciseaux";
 }
 
-document.getElementById('demo').innerHTML = "L'Ordinateur à choisi " + "" + b;
+document.getElementById('demo').innerHTML = "L'Ordinateur a choisi " + "" + b;
 
 if(a==b){
-  alert("égalité");
+  document.getElementById("goku").src = "img/gogeta_by_brolyangel-d5zmm4f.png";
+  document.getElementById("win").src = "img/gogeta_by_brolyangel-d5zmm4f.png";
 }
 else if(a==="pierre" && b==="papier"){
-  alert("l'ordi gagne. L'ordi avait choisit : " + b);
+  // alert("l'ordi gagne. L'ordi avait choisit : " + b);
 Ordi++;
 }
 else if(a==="ciseaux" && b==="papier"){
-  alert("Tu gagne. L'ordi avait choisit : " + b);
+  // alert("Tu gagne. L'ordi avait choisit : " + b);
 joueur++;
 }
 else if(a==="papier" && b==="pierre"){
-  alert("Tu gagne. L'ordi avait choisit : " + b);
+  // alert("Tu gagne. L'ordi avait choisit : " + b);
 joueur++;
 }
 else if(a==="papier" && b==="ciseaux"){
-  alert("L'ordi gagne. L'ordi avait choisit : " + b);
+  // alert("L'ordi gagne. L'ordi avait choisit : " + b);
 Ordi++;
 }
 else if(a==="ciseaux" && b==="pierre"){
-  alert("L'ordi gagne. L'ordi avait choisit : " + b);
+  // alert("L'ordi gagne. L'ordi avait choisit : " + b);
 Ordi++;
 }
 else if(a==="ciseaux" && b==="papier"){
-  alert("Tu gagne. L'ordi avait choisit : " + b);
+  // alert("Tu gagne. L'ordi avait choisit : " + b);
 joueur++;
 }
 
@@ -60,11 +61,30 @@ document.getElementById("Ordi").innerHTML = Ordi;
 // else if (a === "" || a !== "pierre" || a !== "papier" || a !== "ciseaux") {
 // alert("Entrez soit pierre, papier ou ciseaux");
 // }
+if (joueur == 1) {
+  document.getElementById("goku").src = "img/5934fdaa8e0f7833128f0e8dc704bc1f.png";
+;
+}
+if (joueur == 2) {
+  document.getElementById("goku").src = "img/Super_Saiyan_2_Goku_Dragon_Ball_Z.png";
+;
+}
 if (joueur == 3) {
-alert("Tu as gagné la partie !");
+  document.getElementById("goku").src = "img/goku1.png";
+;
+}
+else if(Ordi==1){
+  document.getElementById("win").src = "img/vegeta_ssj_by_naironkr-dadgz00.png";
+}
+else if(Ordi==2){
+  document.getElementById("win").src = "img/Majin_vegeta_by_joseg2099-d5gvfzw.png";
 }
 else if(Ordi==3){
-  alert("Tu as perdu la partie !");
+  document.getElementById("win").src = "img/vegeta.png";
+}
+if(a==b){
+  document.getElementById("goku").src = "img/gogeta_by_brolyangel-d5zmm4f.png";
+  document.getElementById("win").src = "img/gogeta_by_brolyangel-d5zmm4f.png";
 }
 // else {
 //

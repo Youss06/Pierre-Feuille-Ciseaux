@@ -1,11 +1,18 @@
 
 @font-face {
-  font-family: dbz;
+  font-family: "dbz";
 	 src: url(../font/Saiyan-Sans.ttf);
 }
 
-h1 {
-	font-family: dbz;
+#titre {
+	font-family: "dbz";
+  font-size: 60px;
+}
+
+#titre2 {
+	font-family: "dbz";
+  font-size: 60px;
+  color: yellow;
 }
 
 
@@ -22,19 +29,18 @@ h1 {
   font-family: 'Satisfy', cursive;
   font-size: 140%;
   text-align: center;
-  color: white;
-  text-decoration: overline;
+  color: red;
 }
 
-.regle {
+#regle {
   display: none;
   /*color: white;
   font-family: 'Satisfy', cursive;*/
 }
-p{
+#p{
   display: block;
   color: black;
-  font-family: 'Satisfy', cursive;
+  font-family: "dbz";
 }
 button {
     background-color: yellow;
@@ -155,10 +161,10 @@ main {
   width: 150%;
 }
 
-.regle, p{
+#regle, p{
   display: block;
   color: black;
-  font-family: 'Satisfy', cursive;
+  font-family: "dbz";
   font-size: 160%;
 }
 
