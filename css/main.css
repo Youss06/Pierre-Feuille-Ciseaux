@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 @font-face {
   font-family: "dbz";
 	 src: url(../font/Saiyan-Sans.ttf);
@@ -22,12 +21,6 @@
 
 html{
   background: url("../img/XbmNalC.jpg") no-repeat fixed center center / cover;
-=======
-
-
-html{
-  background: url("../img/Peas.jpg") no-repeat fixed center center / cover;
->>>>>>> acead23851a61ad255c11077758fb997330e7316
   margin: 0;
   padding: 0;
 }
@@ -36,31 +29,19 @@ h1 {
   font-family: 'Satisfy', cursive;
   font-size: 140%;
   text-align: center;
-<<<<<<< HEAD
   color: red;
 }
 
 #regle {
-=======
-  color: white;
-  text-decoration: overline;
-}
-
-p {
->>>>>>> acead23851a61ad255c11077758fb997330e7316
   display: none;
   /*color: white;
   font-family: 'Satisfy', cursive;*/
 }
-<<<<<<< HEAD
 #p{
   display: block;
   color: black;
   font-family: "dbz";
 }
-=======
-
->>>>>>> acead23851a61ad255c11077758fb997330e7316
 button {
     background-color: yellow;
     border: none;
@@ -85,7 +66,6 @@ button:hover {
 
 
   img {
-<<<<<<< HEAD
     width: 50%;
   }
 .perso img {
@@ -94,14 +74,6 @@ button:hover {
   /*figure {
     width: 12%;
   }*/
-=======
-    width: 70%;
-  }
-
-  figure {
-    width: 100%;
-  }
->>>>>>> acead23851a61ad255c11077758fb997330e7316
 
 div figure {
 display: flex;
@@ -110,7 +82,6 @@ margin: 0;
 justify-content: space-between;;
 }
 
-<<<<<<< HEAD
 .pierre:hover{
   border: solid 11px yellow;
   margin: -2px;
@@ -151,13 +122,10 @@ main {
 /*.goku:hover{
   background: url("../img/5934fdaa8e0f7833128f0e8dc704bc1f.png");
 }*/
-=======
->>>>>>> acead23851a61ad255c11077758fb997330e7316
 @media (min-width: 768px) {
   div {
     display: flex;
     justify-content: space-around;
-<<<<<<< HEAD
     margin-left: 5%;
     width: 30%;
   }
@@ -195,28 +163,8 @@ main {
 
 #regle, p{
   display: block;
-  color: black;
+  color: bla;
   font-family: "dbz";
-=======
-    margin-left: 10%;
-  }
-
-
-  img {
-    width: 53%;
-  }
-
-  figure {
-    width: 100%;
-  }
-
-
-
-p{
-  display: block;
-  color: white;
-  font-family: 'Satisfy', cursive;
->>>>>>> acead23851a61ad255c11077758fb997330e7316
   font-size: 160%;
 }
 
